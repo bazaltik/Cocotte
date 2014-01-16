@@ -13,7 +13,7 @@ Tags: simple, html5 ready, naked, unsemantic grid system
 /* Colors */
 /*
 blue : #56676E
-orange : #D95F42
+orange : #D9785E
 green : #7A9686
 light green : #B1C999
 beige : #E8E2B2
@@ -68,7 +68,7 @@ beige : #E8E2B2
     font-size: 0.9em;
   }
   a {
-    color: #D95F42;
+    color: #D9785E;
     text-decoration: none;
   }
   a:hover {
@@ -95,12 +95,12 @@ beige : #E8E2B2
  */
 
  ::-moz-selection {
- 	background: #eff5f8;
+ 	background: #E8E2B2;
  	text-shadow: none;
  }
 
  ::selection {
- 	background: #eff5f8;
+ 	background: #E8E2B2;
  	text-shadow: none;
  }
 
@@ -164,7 +164,7 @@ beige : #E8E2B2
    ========================================================================== */
 
    #masterhead {
-    background: #D95F42;
+    background: #D9785E;
     margin-bottom: 0.1em;
     text-align: center;
   }
@@ -225,14 +225,14 @@ beige : #E8E2B2
   }
 
   .menu ul li a:hover {
-    color: #D95F42;
-    background: #f8e2dd;
+    color: #D9785E;
+    background: #f7ece8;
     text-decoration: none;
   }
 
   .menu ul li.current_page_item a {
-    color: #D95F42;
-    background: #f8e2dd;
+    color: #D9785E;
+    background: #f7ece8;
   }
 
   ul.post-info li {
@@ -270,8 +270,12 @@ beige : #E8E2B2
     background: #7A9686;
   }
 
+  #footer a {
+    color: #56676E;
+  }
+
   input[type=submit] {
-    background: #D95F42;
+    background: #D9785E;
     color: #FFFFFF;
     padding: 0.5em;
     border: 0;

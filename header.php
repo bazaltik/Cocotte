@@ -36,8 +36,11 @@
             </div>
             <div id="brand" class="a-left">
               <h1>
-                <?php bloginfo( 'name' ); ?> - <?php bloginfo('description'); ?>
+                <?php bloginfo( 'name' ); ?>
               </h1>
+              <h2>
+                <?php bloginfo('description'); ?>
+              </h2>
             </div>
             <div class="clearfix"></div>
           </a>

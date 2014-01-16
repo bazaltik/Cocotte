@@ -14,7 +14,7 @@ Tags: simple, html5 ready, naked, unsemantic grid system
    Base styles: opinionated defaults
    ========================================================================== */
 
-   @import url(http://fonts.googleapis.com/css?family=Merriweather:400,700,300,900);
+   @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 
    html,
    button,
@@ -27,12 +27,12 @@ Tags: simple, html5 ready, naked, unsemantic grid system
    html {
    	font-size: 1em;
    	line-height: 1.4;
-    font-family: 'Merriweather', serif; 
+    font-family: 'Montserrat', serif; 
   }
 
   h1 {
     font-size: 1.6em;
-    border-bottom: 5px solid #eff5f8;
+    border-bottom: 2px solid #7A9686;
     padding-bottom: 0.5em;
   }
   h2 {
@@ -53,28 +53,30 @@ Tags: simple, html5 ready, naked, unsemantic grid system
   h1, h2, h3, h4, h5, h6 {
     display: block;
     font-weight: 700;
+    color: #56676E;
   }
   .post-content {
     font-size: 0.9em;
   }
   a {
-    color: #3592be;
+    color: #D95F42;
     text-decoration: none;
   }
   a:hover {
     text-decoration: underline;
   }
   header a {
-    color: #333;
+    color: #56676E;
   }
   header a:hover {
     text-decoration: none;
   }
   .fa {
-    color: #f15b3d;
+    color: #7A9686;
   }
   #footer {
     font-size: 0.8em;
+    color: #FFFFFF;
   }
 
 /*
@@ -153,6 +155,7 @@ Tags: simple, html5 ready, naked, unsemantic grid system
    ========================================================================== */
 
    #masterhead {
+    background: #D95F42;
     margin-bottom: 1em;
     text-align: center;
   }
@@ -163,6 +166,7 @@ Tags: simple, html5 ready, naked, unsemantic grid system
     padding: 0;
     line-height: 102px;
     border-bottom: 0;
+    color: #E8E2B2;
   }
 
   #banner {
@@ -190,6 +194,10 @@ Tags: simple, html5 ready, naked, unsemantic grid system
     padding: 0;
   }
 
+  .menu ul {
+    margin-bottom: 0.5em;
+  }
+
   .menu ul li {
     display: block;
     list-style: none;
@@ -198,11 +206,11 @@ Tags: simple, html5 ready, naked, unsemantic grid system
   .menu ul li a {
     display: block;
     margin: 0 0 0.5em 0;
-    background: #eff5f8;
+    background: #FFFFFF;
     padding: 0.5em;
     text-transform: uppercase;
     font-size: 0.9em;
-    color: #3592be;
+    color: #56676E;
   }
 
   .menu ul li a:hover {
@@ -227,7 +235,7 @@ Tags: simple, html5 ready, naked, unsemantic grid system
     color: #a6a6a6;
   }
 
- ul li {
+  ul li {
     list-style: none;  
   }
 
@@ -237,7 +245,7 @@ Tags: simple, html5 ready, naked, unsemantic grid system
   }
 
   #sidebar h2 {
-    border-bottom: 5px solid #eff5f8;
+    border-bottom: 2px solid #7A9686;
     padding-bottom: 0.5em;
     margin: 0.67em 0;
   }
@@ -248,7 +256,7 @@ Tags: simple, html5 ready, naked, unsemantic grid system
 
   #footer {
     margin: 2em 0 0 0;
-    background: #eff5f8;
+    background: #56676E;
   }
 
 
@@ -382,12 +390,15 @@ Tags: simple, html5 ready, naked, unsemantic grid system
    @media only screen and (min-width: 35em) {
    	/* Style adjustments for viewports that meet the condition */
 
+    #masterhead {
+      text-align: left;
+    }
     #masterhead h1 {
       display: block;
       margin: 0;
       line-height: 102px;
       border-bottom: 0;
-      text-align: left;
+      font-size: 2em;
     }
 
     #logo {

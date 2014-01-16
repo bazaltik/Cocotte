@@ -15,6 +15,7 @@ Tags: simple, html5 ready, naked, unsemantic grid system
 blue : #56676E
 orange : #D95F42
 green : #7A9686
+light green : #B1C999
 beige : #E8E2B2
 */
 
@@ -34,13 +35,13 @@ beige : #E8E2B2
 
    html {
    	font-size: 1em;
-   	line-height: 1.4;
-    font-family: 'Montserrat', serif; 
+   	line-height: 1.4em;
+    font-family: 'Montserrat', sans-serif; 
   }
 
   h1 {
     font-size: 1.6em;
-    border-bottom: 2px solid #7A9686;
+    border-bottom: 0.1em solid #7A9686;
     padding-bottom: 0.5em;
   }
   h2 {
@@ -80,7 +81,7 @@ beige : #E8E2B2
     text-decoration: none;
   }
   .fa {
-    color: #7A9686;
+    color: #56676E;
   }
   #footer {
     font-size: 0.8em;
@@ -164,7 +165,7 @@ beige : #E8E2B2
 
    #masterhead {
     background: #D95F42;
-    margin-bottom: 0.5em;
+    margin-bottom: 0.1em;
     text-align: center;
   }
 
@@ -196,7 +197,7 @@ beige : #E8E2B2
     display: block;
     width: 100%;
     height: auto;
-    margin: 0.5em 0;
+    margin: 1em 0;
   }
 
   ul {
@@ -224,14 +225,14 @@ beige : #E8E2B2
   }
 
   .menu ul li a:hover {
-    color: #f15b3d;
-    background: #f8f2ef;
+    color: #D95F42;
+    background: #f8e2dd;
     text-decoration: none;
   }
 
   .menu ul li.current_page_item a {
-    color: #f15b3d;
-    background: #f8f2ef;
+    color: #D95F42;
+    background: #f8e2dd;
   }
 
   ul.post-info li {
@@ -257,7 +258,7 @@ beige : #E8E2B2
   #sidebar h2 {
     border-bottom: 2px solid #7A9686;
     padding-bottom: 0.5em;
-    margin: 0.67em 0;
+    margin: 0.5em 0;
   }
 
   #sidebar li ul li {
@@ -269,6 +270,12 @@ beige : #E8E2B2
     background: #7A9686;
   }
 
+  input[type=submit] {
+    background: #D95F42;
+    color: #FFFFFF;
+    padding: 0.5em;
+    border: 0;
+  }
 
 
 
@@ -412,6 +419,7 @@ beige : #E8E2B2
     }
     #navigation {
       background: #7A9686;
+      margin-bottom: 1em;
     }
 
     #logo {
@@ -436,7 +444,7 @@ beige : #E8E2B2
     .post-content img {
       width: auto;
       float: left;
-      margin: 0 0.5em 0.5em 0;
+      margin: 0 1em 1em 0;
     }
   }
 

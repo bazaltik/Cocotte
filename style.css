@@ -156,7 +156,7 @@ Tags: simple, html5 ready, naked, unsemantic grid system
 
    #masterhead {
     background: #D95F42;
-    margin-bottom: 1em;
+    margin-bottom: 0.5em;
     text-align: center;
   }
 
@@ -177,7 +177,9 @@ Tags: simple, html5 ready, naked, unsemantic grid system
     margin-right: 1em;
     float: none;
   }
-
+  #navigation {
+    background: #FFFFFF;
+  }
   .post {
     margin-bottom: 2em;
   }
@@ -195,7 +197,7 @@ Tags: simple, html5 ready, naked, unsemantic grid system
   }
 
   .menu ul {
-    margin-bottom: 0.5em;
+    margin: 0.5em 0;
   }
 
   .menu ul li {
@@ -206,11 +208,11 @@ Tags: simple, html5 ready, naked, unsemantic grid system
   .menu ul li a {
     display: block;
     margin: 0 0 0.5em 0;
-    background: #FFFFFF;
+    background: #7A9686;
     padding: 0.5em;
     text-transform: uppercase;
     font-size: 0.9em;
-    color: #56676E;
+    color: #FFFFFF;
   }
 
   .menu ul li a:hover {
@@ -256,7 +258,7 @@ Tags: simple, html5 ready, naked, unsemantic grid system
 
   #footer {
     margin: 2em 0 0 0;
-    background: #56676E;
+    background: #7A9686;
   }
 
 
@@ -400,6 +402,9 @@ Tags: simple, html5 ready, naked, unsemantic grid system
       border-bottom: 0;
       font-size: 2em;
     }
+    #navigation {
+      background: #7A9686;
+    }
 
     #logo {
       margin-right: 1em;
@@ -416,6 +421,8 @@ Tags: simple, html5 ready, naked, unsemantic grid system
     .menu ul li a {
       display: block;
       margin: 0 1em 0 0;
+      background: #FFFFFF;
+      color: #56676E;
     }
 
     .post-content img {

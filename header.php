@@ -43,9 +43,9 @@
           </a>
         </div>
       </div>
-      <nav role="navigation" class="site-navigation main-navigation grid-container">
-      <div class="grid-100">
+    </header>
+    <nav role="navigation" id="navigation" class="site-navigation main-navigation">
+      <div class="grid-container">
         <?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
       </div>
     </nav>
-    </header>

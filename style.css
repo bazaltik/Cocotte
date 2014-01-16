@@ -420,6 +420,7 @@ beige : #E8E2B2
       font-size: 2em;
     }
     #masterhead h2 {
+      color: #E8E2B2;
       font-weight: 400;
     }
     #navigation {

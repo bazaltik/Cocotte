@@ -3,4 +3,4 @@ Cocotte
 
 A simple open source WordPress theme.
 
-Based on the boilerplate framework and unsemantic grid system.
+Based on HTML5 boilerplate and unsemantic grid system.

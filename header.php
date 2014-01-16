@@ -46,6 +46,8 @@
     </header>
     <nav role="navigation" id="navigation" class="site-navigation main-navigation">
       <div class="grid-container">
-        <?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
+        <div class="grid-100">
+          <?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
+        </div>
       </div>
     </nav>
